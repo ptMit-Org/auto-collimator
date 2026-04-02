@@ -22,10 +22,10 @@ export const INTRO_CONTENT = {
     
     // Student List
     students: [
-        "VINOTHA M - 2023507004", 
-        "SANDHIYA E - 2023507008", 
-        "KAVIYA M - 2023507022",
-        "HARIPRIYA R - 2023507036",
+        { name: "VINOTHA M", roll: "2023507004", image: "../studentimages/2023507004.jpg" },
+        { name: "SANDHIYA E", roll: "2023507008", image: "../studentimages/2023507008.jpg" },
+        { name: "KAVIYA M", roll: "2023507022", image: "../studentimages/2023507022.jpg" },
+        { name: "HARIPRIYA R", roll: "2023507036", image: "../studentimages/2023507036.jpg" }
     ],
 
     // Footer Text

@@ -63,9 +63,13 @@ const IntroPage = () => {
             </div>
 
             {/* Student List Grid */}
-            <ul className="student-list">
+            <ul className="student-grid">
               {INTRO_CONTENT.students.map((student, index) => (
-                <li key={index}>{student}</li>
+                <li key={index} className="student-card">
+                  <img src={student.image} alt={student.name} />
+                  <div className="student-name">{student.name}</div>
+                  <div className="student-roll">{student.roll}</div>
+                </li>
               ))}
             </ul>
           </div>
